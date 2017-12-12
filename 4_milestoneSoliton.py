@@ -1,4 +1,4 @@
-'''Program to propagate sech soliton confining and non-confining potential'''
+'''Program to propagate sech soliton with negative and non negative dispersive coefficient'''
 
 import numpy as np
 import matplotlib.pyplot as pyplot
@@ -133,21 +133,6 @@ if __name__ == "__main__":
         
             #live plot
             anim = animation.FuncAnimation(fig, animate, init_func=init, frames=int(numberIterations), interval=0,fargs=(wavefunctionProbabilityConserved, wavefunctionProbabilitySpread,), repeat_delay=2000)
-        
 
-    
-    
     
     pyplot.show()
-    
-    
-   
-    
-    
-    
-    
-     
-
-
-
-
